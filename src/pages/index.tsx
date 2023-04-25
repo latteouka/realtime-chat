@@ -1,3 +1,4 @@
+import Button from "@/components/ui/Button";
 import { type NextPage } from "next";
 import Head from "next/head";
 
@@ -8,8 +9,10 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <main className="absolute left-0 top-0 z-20 flex h-screen w-full items-center justify-center text-red-500">
-        t3 + three
+      <main className="">
+        <Button variant="default" size="lg">
+          THIS IS A Button
+        </Button>
       </main>
     </>
   );
